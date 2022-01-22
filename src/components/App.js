@@ -3,15 +3,19 @@
 //A. IMPORTACIONES
 
 import './../styles/App.css';
-import Foco from './Foco';
+import FilaFocos from './FilaFocos';
+import FocoMercurial from './FocoMercurial';
+
+
 //B FUNCIONES(COMPONENTE)
 function App() {
   
   //JSX -FORMATO PARA PODER UTILIZAR JAVASCRIPT Y HTML SIMULTANEO
   return (
     <div id='techo'>
-      <Foco/>
-      <Foco/>
+      <FocoMercurial/>
+      <FilaFocos/>
+      <FocoMercurial/>
     </div>
   );
 }
