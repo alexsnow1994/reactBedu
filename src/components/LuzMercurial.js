@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 export default function LuzMercurial() {
-  return ( 
-  <div className='luzMercurial'>
+    const [color, setColor] = useState("pink")
+    return ( 
+  <div style={{ backgroundColor: color}} className='luzMercurial'>
 
   </div>
   );
-}
+};
